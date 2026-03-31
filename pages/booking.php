@@ -38,7 +38,7 @@
 
                         <div class="col-md-6 form-group">
                             <label for="phone">Phone Number (with country code)</label>
-                            <input type="tel" id="phone" name="phone" placeholder="+255 717 725 454" required>
+                            <input type="tel" id="phone" name="phone" placeholder="+255 717 708 090" required>
                         </div>
 
                         <div class="col-md-6 form-group">

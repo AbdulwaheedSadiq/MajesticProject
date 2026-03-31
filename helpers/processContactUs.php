@@ -10,35 +10,33 @@ require 'PHPMailer/src/SMTP.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Get form data
-    $full_name = strip_tags(trim($_POST['full_name']));
-    $email     = strip_tags(trim($_POST['email']));
-    $phone     = strip_tags(trim($_POST['phone']));
-    $persons   = strip_tags(trim($_POST['persons']));
-    $month     = strip_tags(trim($_POST['month']));
-    $message   = strip_tags(trim($_POST['message']));
+    $name = htmlspecialchars(trim($_POST['name']));
+    $email = htmlspecialchars(trim($_POST['email']));
+    $message = htmlspecialchars(trim($_POST['message']));
 
     // Your email address (CHANGE THIS!)
     $to = "mesudluqman@gmail.com";        // ←←← CHANGE TO YOUR EMAIL
-    $subject = "New Booking Request - Majestic Experience";
+    $subject = "New Contact Us Message - Majestic Experience";
 
     // Email body
-    $body = "📩 NEW BOOKING REQUEST\n";
-    $body .= "----------------------------------------\n\n";
+    $body = "📩 NEW CONTACT MESSAGE\n";
+    $body .= "==============================\n\n";
 
-    $body .= "👤 Customer Details:\n";
-    $body .= "Name: $full_name\n";
-    $body .= "Email: $email\n";
-    $body .= "Phone: $phone\n\n";
-
-    $body .= "🧳 Trip Information:\n";
-    $body .= "Number of Persons: $persons\n";
-    $body .= "Preferred Departure Month: $month\n\n";
+    $body .= "👤 Sender Details:\n";
+    $body .= "--------------------------------\n";
+    $body .= "Full Name : " . $name . "\n";
+    $body .= "Email     : " . $email . "\n\n";
 
     $body .= "💬 Message:\n";
-    $body .= ($message ?: "No additional message provided") . "\n\n";
+    $body .= "--------------------------------\n";
+    $body .= ($message ?: "No message provided") . "\n\n";
 
-    $body .= "----------------------------------------\n";
-    $body .= "📅 Submitted on: " . date("d M Y, h:i A") . "\n";
+    $body .= "⏰ Submitted On:\n";
+    $body .= "--------------------------------\n";
+    $body .= date("l, d M Y - h:i A") . "\n";
+
+    $body .= "\n==============================\n";
+    $body .= "This message was sent from your website contact form.";
 
     // Headers
     $headers = "From: mesudluqman@gmail.com\r\n";
@@ -51,7 +49,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         // SMTP config
         $mail->isSMTP();
-        $mail ->isHTML(true);
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'abdulwahidsadiq15@gmail.com';
@@ -63,7 +60,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->setFrom('mesudluqman@gmail.com', 'Majestic Tours');
         $mail->addAddress('mesudluqman@gmail.com');
         $mail->addCC('abdulwahidsadiq15@gmail.com');
-        $mail->addReplyTo($email, $full_name);
+        $mail->addReplyTo($email, $name);
 
         // Content
         $mail->isHTML(false);
@@ -82,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Send email
     if ($mail) {
         echo "<h2>Thank you!</h2>";
-        echo "<p>Your booking request has been received. We will contact you soon.</p>";
+        echo "<p>Your message has been received. We will contact you soon.</p>";
         echo "<a href='../index.php'>← Back to Home</a>";
     } else {
         echo "<h2>Sorry!</h2>";

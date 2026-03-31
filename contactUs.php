@@ -414,30 +414,25 @@
                                 <span class="d-inline-block mx-auto shape-header"></span>
                                 <p>We’d love to hear from you and help plan your perfect Tanzania adventure </p>
                             </div>
-                            <form class="contact-form" id="contact_form_submit">
-                                <div class="form-group">
-                                    <input type="text" placeholder="Name" id="name" name="name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" placeholder="Email" id="email" name="email">
-                                </div>
-                                <!-- <div class="form-group w-100">
-                                    <select class="select-bar" name="kisu" id="select">
-                                        <option value="">-Select Subject-</option>
-                                        <option value="s2">-Competetion-</option>
-                                        <option value="s3">-Swim Course-</option>
-                                        <option value="s4">-Want to be a Swimer-</option>
-                                        <option value="s5">-Kids Swiming-</option>
-                                        <option value="s6">-Buy Something-</option>
-                                    </select>
-                                </div> -->
-                                <div class="form-group w-100">
-                                    <textarea id="message"  placeholder="Type Message"></textarea>
-                                </div>
-                                <div class="form-group w-100">
-                                    <input type="submit" value="Send Message">
-                                </div>
-                            </form>
+                           <form class="contact-form" method="POST" action="helpers/processContactUs.php">
+
+                            <div class="form-group">
+                                <input type="text" placeholder="Name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" placeholder="Email" name="email" required>
+                            </div>
+
+                            <div class="form-group w-100">
+                                <textarea name="message" placeholder="Type Message" required></textarea>
+                            </div>
+
+                            <div class="form-group w-100">
+                                <input type="submit" value="Send Message">
+                            </div>
+
+                        </form>
                         </div>
                     </div>
                 </div>
