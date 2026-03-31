@@ -577,11 +577,11 @@ input[type="submit"] {
 }
 
 .preloader .preloader-wrapper {
-    max-width: 400px;
+    width: 100%;
 }
 
 .preloader img {
-    max-width: 100%;
+    width: 100%;
 }
 
 /*Section Header*/
@@ -621,7 +621,7 @@ input[type="submit"] {
 
 .bg-theme-hover:hover,
 .bg-theme {
-    background: #2560d4;
+    background: #ffd800;
 }
 
 .bg-theme-hover:hover .title,
@@ -1219,7 +1219,7 @@ template {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
-    border-bottom: 1px solid #456bd4;
+    border-bottom: 1px solid #ffd800;
 }
 
 .footer-top .footer-widget.footer-schedule ul li:last-child a {
@@ -2239,7 +2239,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
     width: 31px;
     height: 27px;
     color: #ffffff;
-    background: #2560d4;
+    background:rgb(6, 6, 6);
     line-height: 27px;
     text-align: center;
     display: flex;
@@ -2255,17 +2255,17 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 
 .instructor-item:hover .instructor-content {
     animation: .2s fadeInDown linear forwards;
-    background: url(../images/instructor/ins-shape.png) rgba(37, 96, 212, 0.9) no-repeat center center;
+    background: url(../images/instructor/ins-shape.png) #ffd900 no-repeat center center;
     background-size: cover;
 }
 
 .instructor-item:hover .instructor-content .sub-title a, .instructor-item:hover .instructor-content span {
-    color: #ffffff;
+    color:rgb(8, 8, 8);
 }
 
 .instructor-item:hover .instructor-content .social li a {
     background: #ffffff;
-    color: #2560d4 !important;
+    color:rgb(5, 5, 5) !important;
 }
 
 .instructor-item-two {
@@ -3260,7 +3260,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 .about-swim-area .about-swim-item::before {
     position: absolute;
     content: "";
-    background: #2560d4;
+    background: #ffd700;
     top: 7px;
     left: 0;
     width: 13px;
@@ -3278,7 +3278,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 }
 
 .about-swim-area .about-swim-item p {
-    max-width: 330px;
+    max-width: 500px;
 }
 
 /*Wellcome-Section Starts*/
@@ -3583,7 +3583,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 
 .breadcrumb {
     margin: 0;
-    border-bottom: 1px solid #2560d4;
+    border-bottom: 1px solid #040e27;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
@@ -3599,13 +3599,13 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 .breadcrumb li, .breadcrumb li a {
     font-weight: 700;
     font-family: "Roboto", sans-serif;
-    color: #040e27;
+    color: #040e27; 
     text-transform: uppercase;
 }
 
 .breadcrumb li {
     padding: 5px 2px;
-    color: #2560d4;
+    color: #040e27;
 }
 
 @media (max-width: 575px) {
@@ -3620,7 +3620,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 }
 
 .breadcrumb li a:hover {
-    color: #2560d4;
+    color: #ffd700;
 }
 
 /*Swim-Lesson-Section Starts*/
@@ -3641,12 +3641,12 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 }
 
 .tab-menu li:hover {
-    color: #2560d4;
+    color:rgb(0, 0, 0);
 }
 
 .tab-menu li.active {
     color: #ffffff;
-    background: #2560d4;
+    background: #ffd800;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -4683,7 +4683,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
     width: auto;
     padding: 0 50px;
     text-transform: uppercase;
-    background: #2560d4;
+    background: #ffd800;
     border-color: #040e27;
 }
 
@@ -4816,7 +4816,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
     width: auto;
     height: 60px;
     padding: 0 40px;
-    background: #2560d4;
+    background: #ffd800;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
@@ -5345,7 +5345,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 .different-sign-in {
     text-align: center;
     padding: 60px 0;
-    background: #2560d4;
+    background: #dec32b;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -5541,7 +5541,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
     width: auto;
     padding: 0 30px;
     text-transform: uppercase;
-    background: #2560d4;
+    background: #ffd800;
     color: #ffffff;
     margin-top: 9px;
 }
@@ -5560,7 +5560,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 }
 
 .sign-in-form .form-group p a {
-    color: #2560d4;
+    color: #ffd800;
 }
 
 /*Faq-Section Starts Here */
@@ -5733,7 +5733,7 @@ footer.style-two .footer-top .footer-widget.footer-schedule ul li a {
 }
 
 .contact-form .form-group input[type="submit"], .contact-form .form-group .select-bar[type="submit"] {
-    background: #2560d4;
+    background: #ffd800;
     height: 50px;
     width: auto;
     padding: 0 50px;
@@ -5879,7 +5879,7 @@ div[class*="position"] .dot {
     -o-border-radius: 50%;
     display: block;
     cursor: pointer;
-    background: #2560d4;
+    background: #ffd800;
     animation: pulseOne 5s linear infinite;
     -webkit-animation: pulseOne 5s linear infinite;
     -moz-animation: pulseOne 5s linear infinite;
@@ -7036,7 +7036,7 @@ div[class*="position"] .details .area {
 }
 
 .comment-form .form-group input[type="submit"] {
-    background: #2560d4;
+    background: #ffd800;
     text-transform: uppercase;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
@@ -7670,3 +7670,32 @@ div[class*="position"] .details .area {
     transform: translateY(-4px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
+
+.top-reasons-section .client-card {
+  transition: all 0.3s ease;
+  border: 1px solid #eee;
+}
+.top-reasons-section .client-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+.avatar img {
+  object-fit: cover;
+}
+.section-header .shape-header {
+  width: 80px;
+  height: 4px;
+  background: #c9a347;
+  border-radius: 2px;
+}
+
+
+
+.protected {
+            user-select: none;
+        }
+
+        /* Optional: protect images */
+        img {
+            pointer-events: none;
+        }

@@ -12,10 +12,14 @@
     <link rel="stylesheet" href="assets/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
 
         <link rel="stylesheet" href="assets/css/owlcarousel.css">
             <link rel="stylesheet" href="assets/css/owlcarouseltheme.css">
 
     <link rel="shortcut icon" href="assets/images/logo/MajesticLogoOnly.png" type="image/x-icon">
+    
+    <link rel="stylesheet" type="text/css" href="../assets/css/loadingBar.css"/>
+
 
     <title>Majestic-Experience</title>

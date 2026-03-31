@@ -1,7 +1,7 @@
   <!-- ==========Preloader========== -->
     <div class="preloader">
         <div class="preloader-wrapper">
-            <img src="assets/css/ajax-loader.gif" alt="ajax-loader">
+            <img src="assets/css/loader.gif" alt="ajax-loader">
         </div>
     </div>
     <!-- ==========Preloader========== -->
@@ -50,7 +50,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3">
-                        <ul class="d-flex justify-content-end account">
+                        <!-- <ul class="d-flex justify-content-end account">
                             <li>
                                 <a href="#">Login</a>
                                  <i class="fi fi-brands-instagram"></i>
@@ -58,7 +58,7 @@
                             <li>
                                 <a href="#">Register</a>
                             </li>
-                        </ul>
+                        </ul> -->
                     </div>
                 </div>
             </div>
@@ -74,17 +74,17 @@
                     </div>
                     <ul class="menu ml-auto">
                         <li>
-                            <a class="nav-link active" href="#0">HOME</a>
+                            <a class="nav-link active" href="index.php">HOME</a>
                            
                         </li>
                         <li>
                             <a class="nav-link" href="#">ABOUT US</a>
                              <ul class="submenu">
                                 <li>
-                                    <a href="#">Majestic Experience</a>
+                                    <a href="aboutUs.php">Majestic Experience</a>
                                 </li>
                                 <li>
-                                    <a href="#">Zanzibar</a>
+                                    <a href="zanzibar.php">Zanzibar</a>
                                 </li>
                             </ul>
                         </li>
@@ -92,10 +92,10 @@
                             <a href="#0">TOURS</a>
                             <ul class="submenu">
                                 <li>
-                                    <a href="#">SEA TOURS</a>
+                                    <a href="seaTours.php">SEA TOURS</a>
                                 </li>
                                 <li>
-                                    <a href="#">LAND TOURS</a>
+                                    <a href="landTours.php">LAND TOURS</a>
                                 </li>
                                 <!-- <li>
                                     <a href="cart.html">Cart</a>
@@ -109,18 +109,18 @@
                             <a href="#0">SAFARIS</a>
                             <ul class="submenu">
                                 <li>
-                                    <a href="#">Mountain</a>
+                                    <a href="mountains.php">Mountain</a>
                                 </li>
                                 <li>
-                                    <a href="#">Lake</a>
+                                    <a href="lakes.php">Lake</a>
                                 </li>
                                 <li>
-                                    <a href="#">National Park</a>
+                                    <a href="parks.php">National Park</a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#0">TRIPS</a>
+                            <a href="trips.php">TRIPS</a>
                             <!-- <ul class="submenu">
                                 <li>
                                     <a href="sign-in.html">sign in</a>
@@ -131,10 +131,10 @@
                             </ul> -->
                         </li>
                         <li>
-                            <a href="contact.html">CONTACT</a>
+                            <a href="contactUs.php">CONTACT</a>
                         </li>
                         <li>
-                            <a href="contact.html">STAFF MAIL</a>
+                            <a href="signIn.php">STAFF MAIL</a>
                         </li>
                     </ul>
                     </ul>

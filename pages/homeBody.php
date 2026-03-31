@@ -223,8 +223,8 @@
                 <!-- Item 1 -->
                 <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course01.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/zanzibar/stonetown.jpg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$45</h3>
@@ -234,15 +234,15 @@
                     <div class="course-content">
                         <h4 class="title"><a href="#">Stone Town tour</a></h4>
                         <p>Zanzibar stone town has a unique history. It was originally inhabited by foreign visitors from outside ....</p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div>
 
                 <!-- Item 2 -->
                 <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course02.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/zanzibar/jozani2.jpg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$60</h3>
@@ -250,17 +250,17 @@
                         </div>
                     </div>
                     <div class="course-content">
-                        <h4 class="title"><a href="course-details.html">Jozani Forest</a></h4>
+                        <h4 class="title"><a href="landTours.php">Jozani Forest</a></h4>
                         <p>It is a unique forest nature reserve in Zanzibar Island and over more than decades has been a home of ....</p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div>
 
                 <!-- Item 3 -->
                 <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course03.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/zanzibar/pomboo.jpeg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$89</h3>
@@ -268,17 +268,17 @@
                         </div>
                     </div>
                     <div class="course-content">
-                        <h4 class="title"><a href="course-details.html">Dolphin Tour</a></h4>
+                        <h4 class="title"><a href="landTours.php">Dolphin Tour</a></h4>
                         <p>Is the one among interesting trip for holidaymakers in Zanzibar at Kizimkazi, located southern part of Unguja Island.</p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div>
 
                 <!-- Item 4 -->
                 <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course04.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/zanzibar/seaTour/blueLagoon.jpeg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$75</h3>
@@ -288,15 +288,15 @@
                     <div class="course-content">
                         <h4 class="title"><a href="#">Snorkeling at Mnemba Island</a></h4>
                         <p>Mnemba is a single small island located about 3 km off the northeast... </p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div>
 
                 <!-- Item 5 -->
                 <!-- <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course05.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/course/course05.jpg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$55</h3>
@@ -306,15 +306,15 @@
                     <div class="course-content">
                         <h4 class="title"><a href="#">Explorer<span>6-12 Years</span></a></h4>
                         <p>Curabitur facilisis, orci ut feugiat sagittis, risus sapien semper turpis, in lacinia magna ipsum nec elit.</p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div> -->
 
                 <!-- Item 6 -->
                 <!-- <div class="course-item">
                     <div class="c-thumb course-thumb">
-                        <a href="course-details.html">
-                            <img src="assets/images/course/course06.jpg" alt="course">
+                        <a href="landTours.php">
+                            <img src="assets/images/course/course06.jpg" alt="safaris">
                         </a>
                         <div class="price-tag">
                             <h3 class="price">$95</h3>
@@ -324,7 +324,7 @@
                     <div class="course-content">
                         <h4 class="title"><a href="#">Scholars<span>15-20 Years</span></a></h4>
                         <p>Vivamus vel justo vitae sapien elementum tincidunt. Phasellus vehicula, nibh sit amet hendrerit luctus.</p>
-                        <a href="course-details.html">Read More</a>
+                        <a href="landTours.php">Read More</a>
                     </div>
                 </div> -->
             </div>
@@ -373,7 +373,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client01.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client04.jpg" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -381,7 +381,7 @@
                                         "Serengeti was breathtaking! Guide spotted Big Five fast. Zanzibar was perfect end. Flawless trip!"
                                     </p>
                                     <footer class="blockquote-footer mt-2 mb-0" style="font-size: 0.85rem;">
-                                        Sarah & Michael<br>
+                                        Michael<br>
                                         <small class="text-muted">UK • Couple</small>
                                     </footer>
                                 </blockquote>
@@ -393,7 +393,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client02.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client07.png" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -401,7 +401,7 @@
                                         "Kids loved Ngorongoro & balloon ride. Safe, fun, perfectly organized family safari."
                                     </p>
                                     <footer class="blockquote-footer mt-2 mb-0" style="font-size: 0.85rem;">
-                                        Aisha & Family<br>
+                                        Ryan & Family<br>
                                         <small class="text-muted">Australia</small>
                                     </footer>
                                 </blockquote>
@@ -413,7 +413,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client03.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client08.jpg" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -438,7 +438,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client01.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client06.jpg" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -446,7 +446,7 @@
                                         "Luxury camp + Zanzibar beaches. Incredible wildlife & caring service. We'll return!"
                                     </p>
                                     <footer class="blockquote-footer mt-2 mb-0" style="font-size: 0.85rem;">
-                                        Elena Rossi<br>
+                                        James Rossi<br>
                                         <small class="text-muted">Italy • Luxury</small>
                                     </footer>
                                 </blockquote>
@@ -458,7 +458,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client02.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client05.jpg" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -466,7 +466,7 @@
                                         "Dream honeymoon! Private drives & romantic dinners. Majestic thought of everything."
                                     </p>
                                     <footer class="blockquote-footer mt-2 mb-0" style="font-size: 0.85rem;">
-                                        Priya & Raj<br>
+                                         Raj<br>
                                         <small class="text-muted">India • Honeymoon</small>
                                     </footer>
                                 </blockquote>
@@ -478,7 +478,7 @@
                             <div class="client-card bg-white shadow-sm rounded p-3 h-100">
                                 <div class="text-center mb-3">
                                     <div class="avatar mx-auto" style="width: 70px; height: 70px; border-radius: 50%; overflow: hidden; border: 3px solid #e9ecef;">
-                                        <img src="assets/images/client/client03.jpg" alt="Client" class="img-fluid">
+                                        <img src="assets/images/client/client09.jpg" alt="Client" class="img-fluid">
                                     </div>
                                 </div>
                                 <blockquote class="blockquote text-center mb-0">
@@ -621,7 +621,7 @@
                 <p>Curious about Serengeti balloon rides?  Wondering if kids will enjoy Ngorongoro? Not sure which Zanzibar hotel fits best?  
                  <br>Drop us a message and let’s start planning your trip of a lifetime together! <br>
                  No question is too small — or too big.</p>
-                <a href="contact.html" class="custom-button active">contact us</a>
+                <a href="contactUs.php" class="custom-button active">contact us</a>
             </div>
         </div>
     </section>

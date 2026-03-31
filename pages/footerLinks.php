@@ -13,6 +13,8 @@
     <script src="assets/js/nice-select.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/owlcarousel.min.js"></script>
+    <script src="assets/js/jquery.vmap.min.js"></script>
+    <script src="assets/js/jquery.vmap.world.js"></script>
     
 <script>
   document.querySelectorAll("[data-background]").forEach(function(el) {
@@ -50,3 +52,54 @@
 })
   });
 </script>
+
+    <script>
+        jQuery(document).ready(function () {
+            jQuery('#vmap').vectorMap({
+                map: 'world_en',
+                color: '#ededff',
+                backgroundColor: 'transparent',
+                hoverOpacity: .8,
+                selectedColor: '#ffca24',
+                scaleColors: ['#f7fcff', '#f7fcff'],
+                normalizeFunction: 'polynomial'
+            });
+        });
+    </script>
+
+    <script>
+        // Disable right-click
+        document.addEventListener('contextmenu', e => e.preventDefault());
+
+        // Disable copy, cut, paste
+        document.addEventListener('copy', e => e.preventDefault());
+        document.addEventListener('cut', e => e.preventDefault());
+        document.addEventListener('paste', e => e.preventDefault());
+
+        // Disable keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+
+            // Block Ctrl shortcuts
+            if (
+                (e.ctrlKey && e.key === 'c') ||   // Copy
+                (e.ctrlKey && e.key === 'u') ||   // View source
+                (e.ctrlKey && e.key === 's') ||   // Save
+                (e.ctrlKey && e.shiftKey && e.key === 'I') || // Inspect
+                (e.key === 'F12') // DevTools
+            ) {
+                e.preventDefault();
+                // alert("Action blocked!");
+            }
+        });
+
+        // Detect DevTools (basic)
+        setInterval(function () {
+            if (window.outerWidth - window.innerWidth > 200 ||
+                window.outerHeight - window.innerHeight > 200) {
+
+                // document.body.innerHTML = "<h1>Inspect is disabled</h1>";
+            }
+        }, 1000);
+    </script>
+
+    <script type="text/javascript" src="../assets/js/loadingBar.js"></script>

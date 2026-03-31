@@ -10,7 +10,7 @@
 
 </head>
 
-<body>
+<body class="protected" oncontextmenu="return false;">
         <!-- ==========header-section========== -->
 
         <?php  include 'pages/header.php' ?>  
